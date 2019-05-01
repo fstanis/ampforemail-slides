@@ -1,0 +1,681 @@
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <title>Getting started with AMP for Email</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="canonical" href="https://fstanis.github.io/ampforemail-slides/">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="https://amp.dev/static/img/favicon.png">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      amp-story {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+      }
+      amp-story-grid-layer[template=vertical].bottom {
+        align-content: end;
+      }
+      amp-story-grid-layer[template=vertical].middle {
+        align-content: center;
+      }
+      amp-story-grid-layer.video {
+        padding: 0;
+      }
+      amp-story-grid-layer.title {
+        padding: 3em;
+      }
+      .notes {
+        background: rgba(0,0,0,0.8);
+        padding: 1em;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+      }
+      #poster {
+        background-image:
+          linear-gradient(
+            to top left,
+            #f0f068, #2eb932
+          );
+      }
+      #poster h1 {
+        font-size: 2.5em;
+        line-height: 1.2em;
+        font-weight: 700;
+      }
+      #poster .author {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin-top: 1em;
+      }
+    </style>
+    <meta name="description" content="AMP for Email arrives to revolutionize how users interact with content in email. Learn how to get started by following these steps.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@FilipStanis">
+    <meta name="twitter:title" content="Getting started with AMP for Email">
+    <meta name="twitter:description" content="AMP for Email arrives to revolutionize how users interact with content in email. Learn how to get started by following these steps.">
+    <meta name="twitter:image" content="https://fstanis.github.io/ampforemail-slides/images/poster2-1.png">
+  </head>
+
+  <body>
+    <amp-story standalone supports-landscape
+      title="Getting started with AMP for Email"
+      publisher="AMP Conf 2019"
+      publisher-logo-src="images/amp.png"
+      poster-portrait-src="images/poster3-4.png"
+      poster-landscape-src="images/poster4-3.png"
+      poster-square-src="images/poster1-1.png"
+      >
+
+      <amp-story-page id="poster">
+        <amp-story-grid-layer template="vertical" class="middle title">
+          <div>
+            <h1>Getting started with<br>AMP for Email</h1>
+            <p class="author">Filip Stanis, Developer Advocate, Google</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+      <amp-story-page id="page-1">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/1.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/1.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Navigate to playground.amp.dev</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-2">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/2.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/2.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Switch the format to AMP for Email</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-3">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/3.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/3.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">The HTML tag has the amp4email attribute to indicate the document type</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-4">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/4.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/4.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">The meta charset tag is required, like in AMP for Web</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-5">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/5.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/5.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">The &lt;title&gt; element is optional and can be removed</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-6">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/6.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/6.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">This line loads the AMP runtime, it&#39;s the same v0.js as with AMP for Web</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-7">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/7.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/7.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">The boilerplate is short and used to hide the body until v0.js loads</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-8">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/8.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/8.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">The &lt;style&gt; tag can be used for custom CSS, just like AMP for Web</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-9">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/9.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/9.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Most importantly, the body tag is what the user sees and the AMP Playground updates it in real time</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-10">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/10.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/10.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Open Gmail</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-11">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/11.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/11.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">A simple HTML email with some text and images</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-12">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/12.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/12.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Paste the markup of the email we&#39;ve just seen to Playground</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-13">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/13.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/13.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Replace &lt;img&gt; with &lt;amp-img&gt; to make the email valid AMP</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-14">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/14.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/14.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Move CSS from style attribute to style tag</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-15">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/15.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/15.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Wrap everything inside &lt;amp-accordion&gt;</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-16">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/16.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/16.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Make sure amp-accordion JS is added on top</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-17">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/17.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/17.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Try expanding the accordion sections and make sure it all works</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-18">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/18.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/18.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Open the Gmail AMP playground</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-19">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/19.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/19.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="">
+          <p class="notes">Copy-paste the markup from AMP Playground to Gmail AMP Playground</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-20">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/20.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/20.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="">
+          <p class="notes">Pick a subject for the email</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-21">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/21.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/21.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="">
+          <p class="notes">Press Send</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-22">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/22.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/22.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Go to Gmail and open the email that the playground sent</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-23">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/23.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/23.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Open Gmail settings and find Dynamic email section</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-24">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/24.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/24.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Enable the checkbox and open developer settings</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-25">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/25.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/25.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Type in Playground sender email, amp@gmail.dev</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-26">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/26.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/26.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Press OK and then save, Gmail will reload</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-27">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/27.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/27.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Open the email again</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-28">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/28.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/28.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Go back to playground, delete everything</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-29">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/29.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/29.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Add amp-list</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-30">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/30.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/30.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Write template that uses title, description and image</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-31">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/31.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/31.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Add button to refresh amp-list</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-32">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/32.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/32.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="">
+          <p class="notes">Copy-paste from AMP Playground to Gmail Playground</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-33">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/33.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/33.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="">
+          <p class="notes">Change the subject and press Send</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-34">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/34.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/34.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Go to Gmail and try it out</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+      <amp-story-page id="page-35">
+        <amp-story-grid-layer template="vertical" class="video middle">
+          <amp-video autoplay
+                poster="posters/35.webp"
+                width="1920"
+                height="1080"
+                layout="responsive">
+                <source src="videos/35.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <p class="notes">Try the refresh button</p>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
+    </amp-story>
+  </body>
+</html>
